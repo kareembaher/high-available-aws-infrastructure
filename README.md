@@ -51,13 +51,21 @@ You will need to install the following:
 #### Create a SSH key in AWS console
 - You will have to create an SSH key in order to access your servers.
 - So, follow these steps to create the SSH key:
+
 1- Go to your AWS console.
+
 2- Select the Region where you will deploy your infrastructre from the upper right part next to your username.
+
 3- In the search, type EC2, then click on it.
+
 4- In the left panel, click `Key Pairs` in `Network & Security` section.
+
 5- On the top right section, click `Create Key Pair`.
+
 6- Type a name for your Key Pair, prefered to be `EU1-KP` to match the info configured in the .tf files I made.
+
 7- Click `Create Key Pair`.
+
 8- Download the file to use it to SSH to your servers.
 
 ## How to use?
